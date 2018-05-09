@@ -9,6 +9,11 @@ buildscript {
   ext.junit = '4.12'
   ext.espresso_core = '3.0.2'
   ext.android_support_version = '27.1.1'
+  ext.okhttp3 = '3.10.0'
+  ext.retrofit2 = '2.4.0'
+  ext.dagger2 = '2.16'
+  ext.rxlifecycle = '1.0'
+  ext.glide = '4.7.1'
   repositories {
     mavenCentral()
     google()

@@ -11,28 +11,33 @@
       android:orientation="horizontal"
       >
     <EditText
+        android:id="@+id/mEtMobile"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:hint="请输入手机号码"
         />
     <Button
+        android:id="@+id/mBtnVerifyCode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="获取验证码"
         />
   </LinearLayout>
   <EditText
+      android:id="@+id/mEtVerifyCode"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:hint="请输入验证码"
       />
   <EditText
+      android:id="@+id/mEtPassword"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:hint="请输入密码"
       />
   <EditText
+      android:id="@+id/mEtConfirmPassword"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:hint="请确认密码"
